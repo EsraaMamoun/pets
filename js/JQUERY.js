@@ -71,7 +71,27 @@ $('#demo3').addClass('test');
 
 $('span').removeClass('removeIt');
 
+$("#letSee").css({"background-color":"green","color":"orange"});
+
     $("button").click(function(){
         $("#letSee").toggleClass('red');
     });
 
+$("#demo2").css("background-color","blue");
+
+$("#divv").css({'color':'white','background-color':'black'});
+$('#divv').width("100");
+$("#divv").height("100");
+
+
+$(function() {
+    $("#div2").css("padding", "5px");
+    alert($("#div2").innerWidth());
+  });
+
+  $(function(){
+    $("#pp").height(84);
+    $("#pp").css("margin", 8);
+    $("#pp").css("padding", 2);
+    alert($('#pp').outerHeight());
+  });
